@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        body{
+            margin:0%;
+        }
+        #header{
+        position: relative; 
+        top:0%;
+        left:0%;
+        height:10vh;
+        width:100%;
+        /* border:2px solid chartreuse;  */
+        }
+        #leftDiv{
+            position: absolute; 
+            float: left;
+            top:0%;
+            left:0%;
+            height:inherit;
+            width : 30%;
+            /* border:2px solid cornsilk;  */
+        }
+        #RightDiv{
+            position: absolute; 
+            float: right;
+            top:0%;
+            left:56%;
+            height:inherit;
+            width:44%;
+            /* border:2px solid palevioletred;  */
+        }
+            #imgLogo{
+            height:70px;
+            padding-left: 10%;
+            padding-top: 2%;
+            opacity: 0.7;
+        }
+            
+            .buttonHeader{
+            background-color: transparent;
+            color: white;
+            border:none;
+            outline: none;
+            padding: 14px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-family:roboto;
+            font-size: 10pt;
+            opacity: 0.7;
+            cursor: pointer;
+            /* border: 1px solid black; */
+        }
+            .buttonHeader:hover{
+            opacity: 1;
+            background-color:#02000B;
+            border-radius: 6px;
+            transition: all 1s;
+            }
+            #clearDiv{
+            position: static;
+            clear:both;
+
+            width: inherit;
+            height: 18vh;
+            /* border: 2px solid black; */
+            }
+            #mainSection{
+        position: static; 
+        top:0%;
+        left:0%;
+        height:26vh;
+        width:100%;
+        /* border:2px solid orange;  */
+}
+#WebName{
+position: fixed; 
+        top:25%;
+        left:25%;
+        height:15vh;
+        width:30%;
+        /* border:2px solid pink; */
+            
+}
+.buttonCentre{
+background-color: transparent;
+color: white;
+border:none;
+outline: none;
+border: 1px solid black;
+padding: 14px 16px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-family:roboto;
+font-size: 10pt;
+opacity: 0.5;
+cursor: pointer;
+/* border: 1px solid grey; */
+
+}
+.buttonCentre:hover{
+opacity: 1;
+background-color:rgb(84, 113, 170);
+border-radius: 2px;
+transition: all 1s;
+box-shadow:  2px 2PX 10px #706767;
+}
+#pen{
+    height:70px;
+opacity: 0.5;
+}
+
+#moveRight{
+  
+position: fixed; 
+        top:34%;
+        left:95%;
+        height:8vh;
+        width:15%;
+        /* border:2px solid blanchedalmond; */
+
+}
+    </style>
+</head>
+<body background="bg18.jpg">
+    <div id="header">
+            <div id="leftDiv">
+                <!-- <img id='imgLogo' src="MyLogoTrack.png" alt="logo"> -->
+            </div>
+            <div id="RightDiv">
+                <br>
+                <a href="https://www.w3schools.com/css/css3_buttons.asp"><button class="buttonHeader">Home</button></a><!-- 
+            --><button class="buttonHeader">Features</button><!--   
+            --><button class="buttonHeader">Developers</button><!--
+            --><button class="buttonHeader">Pricing</button><!--
+            --><button class="buttonHeader">Support</button><!--
+            --><button class="buttonHeader">GET STARTED</button>
+            </div>
+            
+            <div id='clearDiv'>
+                <br>
+            </div>
+            <div id='mainSection'>
+                    <div id='WEbName'>
+                        <h2 align="center" style="color:white;">Let'sTrack.IO</h2>
+                        <h1 id="text-anim" align="center" style="color:white;"></h1>
+                        <br><br>
+                        <button class='buttonCentre'>EXPLORE</button>
+                    </div>
+                    <div id="moveRight">
+                     <a href="https://javascript.info/"> <img id="pen" src="imageedit_1_5531632643.png" alt=""></a>
+                    </div>
+                </div>
+    <div id="websiteN"></div>
+    <script src="try.js"></script>
+    
+</body>
+</html>
+<!-- <br><br><br><br><br><br><br><br><br><br>
+    <h1 id="text-anim" align="center" style="color:white;"></h1>
+    <h2 align="center" style="color:white;">Let'sTrack.IO</h2>
+    <button>Explore</button> -->
+    
