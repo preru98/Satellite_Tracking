@@ -1,6 +1,6 @@
 var pos = 0;
 var turn = 0;
-var words = ['Lattitude', 'Longitude', 'Velocity', '', 'Full of life']; // edit this array to add the words or the words to show
+var words = ['Lattitude', 'Longitude', 'Velocity', 'Altitude', 'Footprint', 'Timestamp']; // edit this array to add the words or the words to show
 var speed = 100;
 setTimeout(typeWriter, speed);
 function typeWriter() {

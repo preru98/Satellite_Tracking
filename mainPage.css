@@ -65,26 +65,73 @@ body{
 }
 #mainSection{
     position: absolute; 
-    top:30%;
-    left:0%;
+    top:40%;
+    left:5%;
     height:30vh;
-    width:100%;
-    border:2px solid orange;         
+    width:90%;
+    /* border:2px solid orange;          */
 }
 #websiteName{
     position: absolute; 
     top:0%;
     left:0%;
-    height:15vh;
-    width:inherit;
-    border:2px solid pink;                
+    height:10vh;
+    width:100%;
+    /* border:2px solid pink;                 */
 }
 #contentAnimation{
     position: absolute; 
-    top:50%;
+    top:30%;
     left:0%;
-    height:15vh;
-    width:inherit;
-    border:2px solid green;
+    height:10vh;
+    width:100%;
+    /* border:2px solid green; */
 }
+#upText{
+    line-height: 32px;
+    height: 34.5px;
+    font-size: 26pt;
+    color:white;
+    opacity: 0.8;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    margin: 0%;
+}
+#buttonDiv{
+    position: absolute; 
+    top:70%;
+    left:44%;
+    height:10vh;
+    width:20%;
+    /* border:2px solid cornflowerblue; */
+    
+}
+.buttonCentre{
+    background-color: transparent;
+    color: white;
+    border:none;
+    outline: none;
+    border: 1px solid blueviolet; 
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family:roboto;
+    font-size: 15pt;
+    opacity: 1;
+    cursor: pointer;
+    border-radius: 20px; 
+    /* border: 1px solid grey; */
+    padding: 10px;
+    width: 60%;
+}
+.buttonCentre:hover{
+    opacity: 1;
+    background-color:	#813268;
+    transition: all 3s;
+    box-shadow:  2px 2PX 10px #706767;
+    border :1px solid black;
+    border-radius: 0px;
+}
+
 
