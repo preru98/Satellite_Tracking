@@ -133,5 +133,17 @@ body{
     border :1px solid black;
     border-radius: 0px;
 }
+#moveRight{
+    position: absolute; 
+    top:32%;
+    left:98%;
+    height:10vh;
+    width:5%;
+    border:2px solid cornflowerblue; 
+}
+#pen{
+    height:30px;
+    opacity: 0.3;
+}
 
 
