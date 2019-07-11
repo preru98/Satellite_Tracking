@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+#headerDiv{
+    position: relative; 
+    top:0%;
+    left:0%;
+    height:10vh;
+    width:100%;
+    /* border:2px solid chartreuse;  */
+}
+#leftHeader{
+    position: absolute; 
+    float: left;
+    top:0%;
+    left:0%;
+    height:inherit;
+    width : 30%;
+    /* border:2px solid cornsilk;  */
+}
+#rightHeader{
+    position: absolute; 
+    float: right;
+    top:0%;
+    left:60%;
+    height:inherit;
+    width:40%;
+    /* border:2px solid palevioletred;  */
+}
+#imgLogo{
+    height:100px;
+    padding-left: 7;
+    padding-top: 1%;
+    opacity: 0.9;
+}
+.buttonHeader{
+    background-color: transparent;
+    color: white;
+    border:none;
+    outline: none;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family:roboto;
+    font-size: 11pt;
+    opacity: 0.7;
+    cursor: pointer;
+    /* border: 1px solid black; */
+}
+.buttonHeader:hover{
+    opacity: 1;
+    background-color:#100817;
+    border-radius: 6px;
+    transition: all 1s;
+}
+#clearDiv{
+    position: static;
+    clear:both;
+    width: inherit;
+    height: 18vh;
+    /* border: 2px solid black; */
+}
+#mainSection{
+    position: absolute; 
+    top:30%;
+    left:0%;
+    height:30vh;
+    width:100%;
+    border:2px solid orange;         
+}
+#websiteName{
+    position: absolute; 
+    top:0%;
+    left:0%;
+    height:15vh;
+    width:inherit;
+    border:2px solid pink;                
+}
+#contentAnimation{
+    position: absolute; 
+    top:50%;
+    left:0%;
+    height:15vh;
+    width:inherit;
+    border:2px solid green;
+}
+
