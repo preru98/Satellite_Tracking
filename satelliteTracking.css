@@ -1,0 +1,86 @@
+body{
+    margin: 0%;
+}
+#mapID{
+   height: 500px;
+}
+.container {
+     position: relative;
+}
+
+.text-block {
+position: absolute;
+top :20%;
+left:40%;
+color: #4f061f
+;
+padding-left: 20px;
+padding-right: 20px;
+/* border: 2px solid black; */
+font-size: 15pt;
+font-family: 'Adamina', serif;
+}
+
+#imageTop{
+    opacity: 0.7;
+}
+#secondHeader{
+    position: absolute;
+    top :27%;
+    left:30%;
+    color: #5c1414;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* border: 2px solid black; */
+    font-size: 20pt;
+    font-family: 'Adamina', serif;
+}
+#summary{
+position: absolute;
+top :40%;
+left:0%;
+color: black;
+padding-left: 20px;
+padding-right: 20px;
+/* border: 2px solid black; */
+font-size: 12pt;
+font-family: 'Adamina', serif;
+}
+#buttonDiv{
+    position: absolute;
+    top :57%;
+    left:30%;  
+}
+#buttonDiv2{
+    position: absolute;
+    top :57%;
+    left:50%;  
+}
+.button1{
+    background-color: transparent;
+    color: black;
+    border:none;
+    outline: none;
+    border: 1px solid #f5d41d; 
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family:roboto;
+    font-size: 15pt;
+    opacity: 1;
+    cursor: pointer;
+    border-radius: 20px; 
+    /* border: 1px solid grey; */
+    padding: 10px;
+    width: 100%;
+}
+.button1:hover{
+        opacity: 1;
+        background-color:	#f5d41d;
+        transition: all 3s;
+        box-shadow:  2px 2PX 10px #706767;
+        border :1px solid black;
+        border-radius: 0px;
+
+}
