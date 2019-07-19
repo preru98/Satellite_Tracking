@@ -48,8 +48,8 @@ font-family: 'Adamina', serif;
 }
 #buttonDiv{
     position: absolute;
-    top :57%;
-    left:30%;  
+    top :55%;
+    left:50%;  
 }
 #buttonDiv2{
     position: absolute;
@@ -83,4 +83,11 @@ font-family: 'Adamina', serif;
         border :1px solid black;
         border-radius: 0px;
 
+}
+#hello{
+    font-family: 'Alegreya SC', serif;
+    font-size: 15pt;
+    cursor: pointer;
+    color: #4f061f;
+    text-decoration-line: none;
 }
