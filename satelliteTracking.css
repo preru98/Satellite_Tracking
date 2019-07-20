@@ -104,55 +104,50 @@ body{
     position:absolute;
     color: #f2d3e2;
     transition: all 1s;
-    font-size:20pt;
-    
-}
-#Longitude{
-    color: white;
-}
+    font-size:18pt;  font-family: 'Vidaloka', serif;
 
-.bringForward:hover{
-    transform: scale(1.5);
-    transition: all 1s;
 }
-#Altitude{
+.bringForward:hover{
+    transform: scale(2);
+    transition: all 1s;
     color: white;
+    font-family: 'Marck Script', cursive;
 }
 #visibilityDiv{
-    top:90px;
+    top:70px;
     left:43%;  
 }
 #footprintDiv{
-    top:160px;
+    top:140px;
     left:41%;
 }
 #longitudeDiv{
-    top:230px;
+    top:210px;
     left:39%;
 }
 #solarLongDiv{
-    top:300px;
+    top:280px;
     left:36%;  
 }
 #solarLatDiv{
-    top:370px;
+    top:350px;
     left:37%;
 }
 
 #latitudeDiv{
-    top:440px;
+    top:420px;
     left:40%;
 }
 #timestampDiv{
-    top:510px;
+    top:490px;
     left:41%;
 }
 #velocityDiv{
-top:580px;
-left:43%;
+    top:560px;
+    left:43%;
 }
 #altitudeDiv{
-    top:650px;
+    top:630px;
     left:45%;   
 }
 #Image{
