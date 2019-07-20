@@ -21,7 +21,7 @@
 
 <body>
     <div class="container">
-        <img src="retro-wallpaper-17.jpg" id="imageTop"alt="Norway" style="width:100%;">
+        <img src="retro.jpg" id="imageTop"alt="Norway" style="width:100%;">
         <div class="text-block"> 
             <h4>LET'S TRACK ISS</h4>
         </div>
@@ -37,24 +37,58 @@
             </pre>
         </div>
         <div id="buttonDiv">
-            <a href="#mapID">
+            <a href="#container2">
                 <button class='button1'>To the map</button>
             </a>
         </div>       
     </div>
 
-    <div class="container">
-        <p>
-            longitude : <span id='Longitude'></span>°<br>
-            latitude  : <span id='Latitude'></span>°
-        </p>
-
+    <div id="container2" class="container">
+        <img src="bg2Cropped.jpg" id="imageTop2" alt="Norway" style="width:100%;">
+        
         <div id="mapID"></div>
-    
-        <p>
-            <br><br><br>
-        </p>
+    </div> 
+    <div id="container3" class="container">
+       <img src="bg3Cropped.jpg" alt="Norway" style="width:100%;">
+       
+       <div id=longitudeDiv class="bringForward">
+            longitude : <span id='Longitude'></span>°<br>
+       </div>
+
+       <div id=latitudeDiv class="bringForward">
+            latitude  : <span id='Latitude'></span>°<br>
+       </div>
+
+       <div id=altitudeDiv class="bringForward">
+            altitude  : <span id='Altitude'></span>°<br>  
+       </div>
+
+       <div id=footprintDiv class="bringForward">
+            footprint : <span id='Footprint'></span>°<br>
+       </div>
+
+       <div id=solarLatDiv class="bringForward">
+            solar_lat : <span id='Solar_Lat'></span>°<br>
+       </div>
+
+       <div id=solarLongDiv class="bringForward">
+            solar_long: <span id='Solar_Long'></span>°<br>
+       </div>
+
+       <div id=timestampDiv class="bringForward">
+            timestamp : <span id='Timestamp'></span>°<br>
+       </div>
+
+       <div id=velocityDiv class="bringForward">
+            velocity  : <span id='Velocity'></span>°<br>
+       </div>
+
+       <div id=visibilityDiv class="bringForward">
+            visibility: <span id='Visibility'></span>°<br>
+       </div>
+       
     </div>
+
 
     <script src="satelliteTracking.js"></script>
     

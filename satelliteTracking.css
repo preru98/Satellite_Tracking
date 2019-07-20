@@ -2,26 +2,33 @@ body{
     margin: 0%;
 }
 #mapID{
+   position:absolute;
    height: 450px;
    left:5%;
    width:89%;
    border:2px solid black;
+   top:20%;
 }
 .container {
-     position: relative;
+    position: relative;
 }
+/* #container2 {
+    position: relative;
+}
+#container3 {
+    position:relative;
+} */
 
 .text-block {
-position: absolute;
-top :20%;
-left:40%;
-color: #4f061f
-;
-padding-left: 20px;
-padding-right: 20px;
-/* border: 2px solid black; */
-font-size: 15pt;
-font-family: 'Adamina', serif;
+    position: absolute;
+    top :20%;
+    left:40%;
+    color: #4f061f;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* border: 2px solid black; */
+    font-size: 15pt;
+    font-family: 'Adamina', serif;
 }
 
 #imageTop{
@@ -39,15 +46,15 @@ font-family: 'Adamina', serif;
     font-family: 'Adamina', serif;
 }
 #summary{
-position: absolute;
-top :40%;
-left:0%;
-color: black;
-padding-left: 20px;
-padding-right: 20px;
-/* border: 2px solid black; */
-font-size: 12pt;
-font-family: 'Adamina', serif;
+    position: absolute;
+    top :40%;
+    left:0%;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* border: 2px solid black; */
+    font-size: 12pt;
+    font-family: 'Adamina', serif;
 }
 #buttonDiv{
     position: absolute;
@@ -79,12 +86,12 @@ font-family: 'Adamina', serif;
     width: 100%;
 }
 .button1:hover{
-        opacity: 1;
-        background-color:	#CF652B;
-        transition: all 3s;
-        box-shadow:  2px 2PX 10px #706767;
-        border :1px solid black;
-        border-radius: 0px;
+    opacity: 1;
+    background-color:	#CF652B;
+    transition: all 3s;
+    box-shadow:  2px 2PX 10px #706767;
+    border :1px solid black;
+    border-radius: 0px;
 }
 #hello{
     font-family: 'Alegreya SC', serif;
@@ -92,4 +99,57 @@ font-family: 'Adamina', serif;
     cursor: pointer;
     color: #4f061f;
     text-decoration-line: none;
+}
+.bringForward{
+    position:absolute;
+    color: white;
+    transition: all 1s;
+    
+}
+#Longitude{
+    color: white;
+}
+
+.bringForward:hover{
+    transform: scale(1.5);
+    transition: all 1s;
+}
+#Altitude{
+    color: white;
+}
+#longitudeDiv{
+top:50px;
+left:0px;
+}
+#latitudeDiv{
+top:100px;
+left:0px;
+}
+#altitudeDiv{
+top:150px;
+left:0px;   
+}
+#footprintDiv{
+top:200px;
+left:0px;
+}
+#solarLatDiv{
+top:250px;
+left:0px;
+}
+#solarLongDiv{
+top:300px;
+left:0px;   
+}
+#timestampDiv{
+top:350px;
+left:0px;
+}
+#velocityDiv{
+top:400px;
+left:0px;
+}
+#visibilityDiv{
+top:450px;
+left:0px;   
 }

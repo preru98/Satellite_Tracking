@@ -18,7 +18,7 @@ async function returnPos(){
     const response= await fetch('https://api.wheretheiss.at/v1/satellites/25544');
     const data=await response.json();
     console.log(data);
-    const{longitude,latitude}=data;
+    const{longitude,latitude,altitude,footprint,solar_lat,solar_lon,timestamp,velocity,visibility}=data;
     marker.setLatLng([latitude,longitude]);
     if(initialValue==true){
         myMap.setView([latitude,longitude],2);
@@ -27,6 +27,14 @@ async function returnPos(){
     
     document.getElementById('Longitude').textContent=longitude.toFixed(2);
     document.getElementById('Latitude').textContent=latitude.toFixed(2);
+    document.getElementById('Altitude').textContent=altitude.toFixed(2);
+    document.getElementById('Footprint').textContent=footprint.toFixed(2);
+    document.getElementById('Solar_Lat').textContent=solar_lat.toFixed(2);
+    document.getElementById('Solar_Long').textContent=solar_lon.toFixed(2);
+    document.getElementById('Timestamp').textContent=timestamp.toFixed(2);
+    document.getElementById('Velocity').textContent=velocity.toFixed(2);
+    document.getElementById('Visibility').textContent=visibility;
+
 }
 
 setInterval(returnPos,1000);
