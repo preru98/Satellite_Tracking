@@ -25,14 +25,14 @@ async function returnPos(){
         initialValue=false;
     }
     
-    document.getElementById('Longitude').textContent=longitude.toFixed(2);
-    document.getElementById('Latitude').textContent=latitude.toFixed(2);
+    document.getElementById('Longitude').textContent=longitude.toFixed(10);
+    document.getElementById('Latitude').textContent=latitude;
     document.getElementById('Altitude').textContent=altitude.toFixed(2);
-    document.getElementById('Footprint').textContent=footprint.toFixed(2);
-    document.getElementById('Solar_Lat').textContent=solar_lat.toFixed(2);
-    document.getElementById('Solar_Long').textContent=solar_lon.toFixed(2);
-    document.getElementById('Timestamp').textContent=timestamp.toFixed(2);
-    document.getElementById('Velocity').textContent=velocity.toFixed(2);
+    document.getElementById('Footprint').textContent=footprint.toFixed(5);
+    document.getElementById('Solar_Lat').textContent=solar_lat;
+    document.getElementById('Solar_Long').textContent=solar_lon;
+    document.getElementById('Timestamp').textContent=timestamp;
+    document.getElementById('Velocity').textContent=velocity.toFixed(3);
     document.getElementById('Visibility').textContent=visibility;
 
 }

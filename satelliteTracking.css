@@ -102,8 +102,9 @@ body{
 }
 .bringForward{
     position:absolute;
-    color: white;
+    color: #f2d3e2;
     transition: all 1s;
+    font-size:20pt;
     
 }
 #Longitude{
@@ -117,39 +118,43 @@ body{
 #Altitude{
     color: white;
 }
-#longitudeDiv{
-top:50px;
-left:0px;
-}
-#latitudeDiv{
-top:100px;
-left:0px;
-}
-#altitudeDiv{
-top:150px;
-left:0px;   
+#visibilityDiv{
+    top:90px;
+    left:43%;  
 }
 #footprintDiv{
-top:200px;
-left:0px;
+    top:160px;
+    left:41%;
 }
-#solarLatDiv{
-top:250px;
-left:0px;
+#longitudeDiv{
+    top:230px;
+    left:39%;
 }
 #solarLongDiv{
-top:300px;
-left:0px;   
+    top:300px;
+    left:36%;  
+}
+#solarLatDiv{
+    top:370px;
+    left:37%;
+}
+
+#latitudeDiv{
+    top:440px;
+    left:40%;
 }
 #timestampDiv{
-top:350px;
-left:0px;
+    top:510px;
+    left:41%;
 }
 #velocityDiv{
-top:400px;
-left:0px;
+top:580px;
+left:43%;
 }
-#visibilityDiv{
-top:450px;
-left:0px;   
+#altitudeDiv{
+    top:650px;
+    left:45%;   
+}
+#Image{
+    opacity:1;
 }
