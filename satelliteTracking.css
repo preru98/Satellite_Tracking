@@ -2,7 +2,10 @@ body{
     margin: 0%;
 }
 #mapID{
-   height: 500px;
+   height: 450px;
+   left:5%;
+   width:89%;
+   border:2px solid black;
 }
 .container {
      position: relative;
