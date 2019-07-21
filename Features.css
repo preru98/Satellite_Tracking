@@ -1,3 +1,13 @@
 body{
     margin: 0%;
 }
+.container{
+    position: relative;
+}
+.textBlock{
+    position: absolute;
+    top:10px;
+}
+#para{
+    color: white;
+}
