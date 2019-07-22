@@ -8,6 +8,32 @@ body{
     position: absolute;
     top:10px;
 }
+#homeButton{
+    position: absolute;
+    top:0%;
+    left:94%;
+    background-color: transparent;
+    color: white;
+    /* border:none; */
+    outline: none;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family:roboto;
+    font-size: 15pt;
+    opacity: 0.7;
+    cursor: pointer;
+    transition: all 1s;
+    border-radius: 0px; 
+}
+#homeButton:hover{
+    opacity: 1;
+    background-color:#100817;
+    border-radius: 6px;
+    transition: all 1s;
+    border-radius: 20px; 
+}
 #para{
     color: white;
 }
