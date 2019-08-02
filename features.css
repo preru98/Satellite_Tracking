@@ -1,0 +1,68 @@
+body{
+    margin: 0%;
+}
+.container{
+    position: relative;
+}
+.textBlock{
+    position: absolute;
+    top:10px;
+}
+#topHeader{
+    position: absolute;
+    /* border: 2px solid black; */
+    top:0%;
+    left:0%;
+    height:10vh ;
+    width:100%; 
+    color:rgb(151, 45, 62);
+    /* background-color: black; */
+    font:sans-serif;
+    font-size: 20pt;
+}
+#mainSection{
+
+    position: absolute;
+    /* border: 2px solid black; */
+    top:40%;
+    left:20%;
+    height:10vh ;
+    width:60%; 
+    color:black;
+    font:sans-serif;
+    font-size: 20pt;
+}
+#phrase{
+    font-family: 'Satisfy', cursive;
+}
+
+#homeButton{
+    position: absolute;
+    top:62%;
+    left:45%;
+    background-color: transparent;
+    color: #AEE2E0;
+    /* border:none; */
+    outline: none;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family:roboto;
+    font-size: 15pt;
+    opacity: 0.7;
+    cursor: pointer;
+    transition: all 2s;
+    border-radius: 0px; 
+    width: 8%;
+}
+#homeButton:hover{
+    opacity: 1;
+    background-color:#6C5DBC;
+    /* border-radius: 6px; */
+    transition: all 2s;
+    border-radius: 30px; 
+}
+#para{
+    color: white;
+} 
