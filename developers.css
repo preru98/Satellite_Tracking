@@ -35,6 +35,58 @@ body{
     transition: all 2s;
     border-radius: 30px; 
 }
-#para{
-    color: white;
+
+#mainSection{
+    position: absolute;
+    /* border: 2px solid black; */
+    top:30%;
+    left:0%;
+    height:10vh ;
+    width:100%; 
+    color:black;
+    font:sans-serif;
+    font-size: 18pt;
+}
+#phrase{
+    /* font-family: 'Satisfy', cursive; */
+    font-family: 'Cormorant Garamond', serif;
+}
+#topHeader{
+    position: absolute;
+    /* border: 2px solid black; */
+    top:0%;
+    left:0%;
+    height:10vh ;
+    width:100%; 
+    color:rgb(151, 45, 62);
+    /* background-color: black; */
+    font:sans-serif;
+    font-size: 17pt;
+}
+#homeButton{
+    position: absolute;
+    top:68%;
+    left:43%;
+    background-color: transparent;
+    color: #AEE2E0;
+    border:1px solid white;
+    outline: none;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family:roboto;
+    font-size: 15pt;
+    opacity: 0.7;
+    cursor: pointer;
+    transition: all 2s;
+    border-radius: 0px; 
+    width: 8%;
+}
+#homeButton:hover{
+    opacity: 1;
+    background-color:#6C5DBC;
+    /* border-radius: 6px; */
+    transition: all 2s;
+    border-radius: 30px; 
 }
